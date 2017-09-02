@@ -2,7 +2,6 @@
 
 include_once 'dbconnect.php';
 
-//check if form is submitted
 if (isset($_POST['login'])) {
 
     $email = mysqli_real_escape_string($con, $_POST['email']);
